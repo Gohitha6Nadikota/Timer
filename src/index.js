@@ -7,7 +7,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <>
+      <div className='bg-black h-[8vh] flex justify-center text-white items-center font-extrabold'>TIMER</div>
+      <App />
+    </>
   </React.StrictMode>
 );
 
